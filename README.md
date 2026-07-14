@@ -54,6 +54,12 @@ The bot will show a confirmation embed with **Accept** and **Cancel** buttons. O
 - Only **one** `$onInteraction` command without ID can exist per bot
 - If you already have one, integrate the code using `$if` conditionals
 
+## 📄 License
+
+This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
+
+**Summary:** You can use, copy, modify, merge, publish, distribute, sublicense, and even sell copies of this software, **as long as you keep the original copyright notice and credit the original author** (`nexusifyAPI`).
+
 ---
 
 *For detailed instructions in your language, see the README file inside each language folder.*

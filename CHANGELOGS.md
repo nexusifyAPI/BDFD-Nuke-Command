@@ -6,6 +6,22 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/).
 
 ---
 
+## [1.2.0] - 2026-07-15
+
+### 📄 Added
+- **`LICENSE`** file added — project is now licensed under the **MIT License**.
+  - Copyright (c) 2026 nexusifyAPI.
+  - Allows any use (commercial, modification, distribution, sublicensing) as long as the original copyright notice and credits are preserved.
+- **License section** added to the root `README.md` with a summary of the MIT License terms.
+
+### 📊 Files Modified
+| File | Changes |
+|------|---------|
+| `LICENSE` | Created — MIT License with copyright to nexusifyAPI |
+| `README.md` | Added License section at the bottom |
+
+---
+
 ## [1.1.0] - 2026-07-15
 
 ### 🔄 Changed
