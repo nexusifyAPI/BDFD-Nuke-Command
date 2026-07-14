@@ -5,9 +5,9 @@
 ### 1. Crear la variable
 Ve a la sección **"Variables"** de tu bot en BDFD y crea la siguiente variable:
 
-| Nombre | Tipo | Valor por defecto |
-|--------|------|-------------------|
-| `NukeData` | Server | `{}` |
+| Nombre | Valor por defecto |
+|--------|-------------------|
+| `NukeData` | `{}` |
 
 ### 2. Crear los comandos
 En esta carpeta encontrarás 2 archivos con el código necesario:
