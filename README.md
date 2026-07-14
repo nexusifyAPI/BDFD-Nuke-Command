@@ -19,9 +19,9 @@ Choose your preferred language folder:
 ### 1. Create the variable
 In your BDFD bot, go to **Variables** and create:
 
-| Name | Type | Default value |
-|------|------|---------------|
-| `NukeData` | Server | `{}` |
+| Name | Default value |
+|------|---------------|
+| `NukeData` | `{}` |
 
 ### 2. Create 2 commands
 Each language folder contains 2 files:

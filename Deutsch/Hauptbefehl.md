@@ -55,7 +55,7 @@ $jsonSetString[canal_nsfw;$var[nsfw]]
 $jsonSetString[canal_slowmode;$var[slowmode]]
 $jsonSetString[autor_id;$authorID]
 $jsonSetString[mensaje_id;none]
-$setServerVar[NukeData;$jsonStringify]
+$setUserVar[NukeData;$jsonStringify]
 
 $title[💣 Nuke-Bestätigung]
 $description[

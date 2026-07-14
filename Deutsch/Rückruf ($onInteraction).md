@@ -20,7 +20,7 @@ $endif
 
 $if[$checkContains[$customID;aceptar]==true]
 
-$jsonParse[$getServerVar[NukeData]]
+$jsonParse[$getUserVar[NukeData]]
 $var[c_id;$json[canal_id]]
 $var[c_nombre;$json[canal_nombre]]
 $var[c_tipo;$json[canal_tipo]]
@@ -80,7 +80,7 @@ $slowmode[$var[nuevo_canal];$var[c_slowmode]s]
 $endif
 
 $jsonParse[{}]
-$setServerVar[NukeData;$jsonStringify]
+$setUserVar[NukeData;$jsonStringify]
 
 $sendMessage[✅ **Nuke erfolgreich abgeschlossen**
 
@@ -101,7 +101,7 @@ $sendMessage[❌ Bei der Verarbeitung des Nukes ist ein Fehler aufgetreten: $err
 
 Der Originalkanal wurde NICHT gelöscht. Versuche es erneut.]
 $jsonParse[{}]
-$setServerVar[NukeData;$jsonStringify]
+$setUserVar[NukeData;$jsonStringify]
 
 $endtry
 
@@ -111,7 +111,7 @@ $endif
 $if[$checkContains[$customID;rechazar]==true]
 
 $jsonParse[{}]
-$setServerVar[NukeData;$jsonStringify]
+$setUserVar[NukeData;$jsonStringify]
 
 $sendMessage[❌ **Nuke abgebrochen**
 
